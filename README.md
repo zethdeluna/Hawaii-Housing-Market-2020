@@ -3,7 +3,7 @@ Hawaii is known for its beautiful culture, delicious food, and that feeling of p
 
 We're going to analyze data on housing in Hawaii that I scraped from Zillow.com, a popular American online real estate marketplace that allows consumers to explore their potential new home with the help of pictures, current market prices, rooms, square-footage, and more. The data (available in my repository) contains information on Zillow listings in Hawaii that were available on September 21st of 2020. We're going to use this data to train and test various regression models to predict the price of a house given its features (number of bedrooms/bathrooms, square-footage, location).  
 
-Results: We were able to train a model that predicts the price of a property in Hawaii with an $R^2$ value around 0.75 using housing features including: type (Condo, House, Studio, or Townhouse), square-footage, number of bedrooms/bathrooms, and location (street, city, and zipcode).
+Results: We were able to train a model that predicts the price of a property in Hawaii with an R<sup>2</sup> value around 0.75 using housing features including: type (Condo, House, Studio, or Townhouse), square-footage, number of bedrooms/bathrooms, and location (street, city, and zipcode).
 
 ## The Data
 `hawaii_listings_2020.csv` 
